@@ -41,9 +41,9 @@ class mysqlPipeline:
 
     def open_spider(self, spider):
         self.conn = pymysql.connect(
-            host='localhost',
+            host='192.168.32.100',
             user='root',
-            password='Walnut111',
+            password='123456',
             database='douban_movie',
             port=3306,
             charset='utf8'
